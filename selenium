@@ -1,0 +1,22 @@
+make project - [ackage - right click - build path
+- config build path - libraries - select selenium
+System.setProperty("webdriver.chrome.driver",path of driver);
+double \\ in C:\\users
+write chromedriver.exe");
+create new instance
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\sanka\\Downloads\\chromedriver.exe");
+		WebDriver w=new ChromeDriver();
+		w.manage().window().maximize();
+		w.get("https:\\www.facebook.com");
+		w.findElement(By.id("Email")).sendKeys("aniket@gmail.com");
+		w.findElement(By.id("pass")).sendKeys("Khandola001");
+		w.findElement(By.name("login")).click();
+    
+then run
+
+file - support - antbuildfile
