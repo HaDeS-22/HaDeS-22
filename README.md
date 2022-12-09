@@ -1,29 +1,21 @@
-class = class classname(){
-}
+JUnit
+1 create project
+2 delete module
+3 create class without main
+4 initiate attributes
+5 sorce -> gener8 getter setter , select get set
+6 create next class -> select main
+7 student s = new student();
+	s. setname("name");
+	s.setroll(00);
+	print (s.getname()+s.getroll());
+8 test on first class -> right clicck -> select junit -> testcase
+9 comment fail //fail
+10 create same instance like 7 
+11 assertEquals("test",s.getname());
+	assertEquals(123,s.getroll());
+now save and run
 
-constructor = classname(args){
-}
+student -> new -> junit test case
 
-input from user = Scanner sc = new Scanner()
-
-nextInt= integer and nextLine= String
-
-try{
-code to be tested for exception}
-
-catch(exception e){
-system.out.println("something went wrong");}
-
-finally{
-system.out.println(anything u want to say)}
-
-try {
-			int[] mynumber = {1,2,3};
-			System.out.println(mynumber[10]);
-		}
-		catch (Exception e) {
-			System.out.println("Something went wrong");
-		}
-		finally {
-			System.out.println("The 'try catch' is finished.");
-		}
+test suite = package-> new->testsuite->studenttest->finish->all tests	
